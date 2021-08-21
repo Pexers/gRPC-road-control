@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;)&amp;#36;today.day/&amp;#36;today.month/&amp;#36;today.year, Pexers (https://github.com/Pexers)" />
+    <option name="myName" value="Pexers Copyright" />
+  </copyright>
+</component>
