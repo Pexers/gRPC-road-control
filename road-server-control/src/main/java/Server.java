@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 21/8/2021, Pexers (https://github.com/Pexers)
+ */
 
 import centralservice.Contract.*;
 import centralservice.CentralServiceGrpc.*;
