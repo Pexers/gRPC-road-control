@@ -1,4 +1,6 @@
 # gRPC-road-control
+Most of the logic within this projects was made during the 1st semester of my MSc Degree, the goal with this repository was to improve the implementations previously made and to make them public.
+
 Consider a scenario of a road, figure 1a), with 5 access points allowing vehicle entrances and/or exits, including the possibility of a vehicle entering and exiting at the same point. The road has tolls with payment depending on the route taken according to a price list identical to the one shown in figure 1b).
 
 During a journey a vehicle can issue or receive warnings about events, for example objects on the road, animals, etc. When the server receives a warning, it broadcasts it to all vehicles (clients) that are connected, that is, that entered on the road.
