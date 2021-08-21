@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package roadservice;
+
+service RoadService {
+  rpc Enter(EntryPoint) returns (Void);  // Enter the road
+  rpc EnableWarnings(stream WarnMsg) returns (stream WarnMsg);  // Register to send/receive warnings
+  rpc Leave(FinalPoint) returns (Payment);  // Leave the road
+}
+
+message Void {}
+
+message EntryPoint {
+  string carID = 1;
+  int32 inPoint = 2;
+}
+
+message FinalPoint {
+  string carID = 1;
+  int32 outPoint = 2;
+}
+
+message Payment {
+  float value = 1;
+}
+
+message WarnMsg {
+  string carID = 1;
+  string message = 2;
+}
