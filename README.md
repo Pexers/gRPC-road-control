@@ -1,5 +1,5 @@
 # gRPC Road Control 🚗
-Consider the scenario of a road represented in _Figure 1_, where there're five access points to allow entrances and/or exits of vehicles, including the possibility of a vehicle entering and exiting at the same access point. The road has stops with payments depending on the route taken, according to a price list identical to the one shown in _Table 1_.
+Consider a scenario of a road as represented in _Figure 1_, where there're five access points to allow entrances and/or exits of vehicles, including the possibility of a vehicle entering and exiting at the same access point. The road has stops with payments depending on the route taken, according to a price list identical to the one shown in _Table 1_.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/47757441/210454605-90486e4d-89b0-48ac-ad6b-5dbfb67ede80.png" width="440">
